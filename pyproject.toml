@@ -8,5 +8,10 @@ dependencies = [
   "httpx",
 ]
 
+[dependency-groups]
+dev = [
+  "flet-cli",
+]
+
 [tool.flet]
 product = "josh"
